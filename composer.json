@@ -1,0 +1,23 @@
+{
+  "name": "takman1/phalcon-redis-adapter",
+  "type": "library",
+  "keywords": ["php", "phalcon", "php-redis", "redis", "session"],
+  "config": {
+    "sort-packages": true
+  },
+  "authors": [
+    {
+      "name": "Mohamed Ettaki TALBI",
+      "email": "talbi.med.ett@gmail.com",
+      "role": "Owner"
+    }
+  ],
+  "description": "Redis adapter without deprecations. php-redis >= 5, php >= 7, 4 > php-phalcon >= 3",
+  "require": {
+    "php": "7.*",
+    "ext-phalcon": "3.*",
+    "ext-redis": "5.*"
+  },
+  "require-dev": {
+  }
+}
