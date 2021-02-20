@@ -14,9 +14,9 @@
   ],
   "description": "Phalcon sessions on Redis without deprecations. php-redis >= 5, php >= 7, 4 > php-phalcon >= 3",
   "require": {
-    "php": "7.*",
-    "ext-phalcon": "3.*",
-    "ext-redis": "5.*"
+    "php": ">=7.0",
+    "ext-phalcon": "^3.0",
+    "ext-redis": "^5.0"
   },
   "require-dev": {
   }
