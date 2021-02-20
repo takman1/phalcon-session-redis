@@ -1,5 +1,5 @@
 {
-  "name": "takman1/phalcon-redis-adapter",
+  "name": "takman1/phalcon-session-redis",
   "type": "library",
   "keywords": ["php", "phalcon", "php-redis", "redis", "session"],
   "config": {
@@ -12,7 +12,7 @@
       "role": "Owner"
     }
   ],
-  "description": "Redis adapter without deprecations. php-redis >= 5, php >= 7, 4 > php-phalcon >= 3",
+  "description": "Phalcon sessions on Redis without deprecations. php-redis >= 5, php >= 7, 4 > php-phalcon >= 3",
   "require": {
     "php": "7.*",
     "ext-phalcon": "3.*",
@@ -21,3 +21,4 @@
   "require-dev": {
   }
 }
+
